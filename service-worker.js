@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/oleks.fr.react/precache-manifest.5e0ce4fc186f25c51135eb9693cbd3c1.js"
+  "/oleks.fr.react/precache-manifest.99828213ed2d70abcf4269755b06994b.js"
 );
 
 self.addEventListener('message', (event) => {
