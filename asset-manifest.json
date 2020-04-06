@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/oleks.fr.react/static/css/main.a9d946fc.chunk.css",
-    "main.js": "/oleks.fr.react/static/js/main.32f10d0a.chunk.js",
-    "main.js.map": "/oleks.fr.react/static/js/main.32f10d0a.chunk.js.map",
+    "main.js": "/oleks.fr.react/static/js/main.cadda94e.chunk.js",
+    "main.js.map": "/oleks.fr.react/static/js/main.cadda94e.chunk.js.map",
     "runtime-main.js": "/oleks.fr.react/static/js/runtime-main.2d4244d2.js",
     "runtime-main.js.map": "/oleks.fr.react/static/js/runtime-main.2d4244d2.js.map",
-    "static/js/2.e7fa2dc8.chunk.js": "/oleks.fr.react/static/js/2.e7fa2dc8.chunk.js",
-    "static/js/2.e7fa2dc8.chunk.js.map": "/oleks.fr.react/static/js/2.e7fa2dc8.chunk.js.map",
+    "static/js/2.521139be.chunk.js": "/oleks.fr.react/static/js/2.521139be.chunk.js",
+    "static/js/2.521139be.chunk.js.map": "/oleks.fr.react/static/js/2.521139be.chunk.js.map",
     "index.html": "/oleks.fr.react/index.html",
-    "precache-manifest.99828213ed2d70abcf4269755b06994b.js": "/oleks.fr.react/precache-manifest.99828213ed2d70abcf4269755b06994b.js",
+    "precache-manifest.ba72d2c85cc3b72adcfb93fdd2148629.js": "/oleks.fr.react/precache-manifest.ba72d2c85cc3b72adcfb93fdd2148629.js",
     "service-worker.js": "/oleks.fr.react/service-worker.js",
     "static/css/main.a9d946fc.chunk.css.map": "/oleks.fr.react/static/css/main.a9d946fc.chunk.css.map",
-    "static/js/2.e7fa2dc8.chunk.js.LICENSE.txt": "/oleks.fr.react/static/js/2.e7fa2dc8.chunk.js.LICENSE.txt",
+    "static/js/2.521139be.chunk.js.LICENSE.txt": "/oleks.fr.react/static/js/2.521139be.chunk.js.LICENSE.txt",
     "static/media/profile.JPG": "/oleks.fr.react/static/media/profile.6ab5e174.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.2d4244d2.js",
-    "static/js/2.e7fa2dc8.chunk.js",
+    "static/js/2.521139be.chunk.js",
     "static/css/main.a9d946fc.chunk.css",
-    "static/js/main.32f10d0a.chunk.js"
+    "static/js/main.cadda94e.chunk.js"
   ]
 }
