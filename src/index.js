@@ -13,6 +13,7 @@ import {
 // import SideMenu from './components/side-menu';
 import Home from './components/home';
 import CurriculumVitae from './components/curriculum-vitae';
+import Contact from './components/contact';
 
 import './index.css';
 
@@ -34,6 +35,9 @@ class App extends React.Component {
                 <li>
                   <a href="https://blog.oleks.fr">Blog</a>
                 </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
               </ul>
             </nav>
           </aside>
@@ -42,6 +46,9 @@ class App extends React.Component {
             <Switch>
               <Route path="/cv">
                 <CurriculumVitae />
+              </Route>
+              <Route path="/contact">
+                <Contact />
               </Route>
               <Route path="/">
                 <Home />
