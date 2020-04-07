@@ -3,14 +3,12 @@ import { myself } from '../data/myself.js';
 
 import profilePicture from '../img/profile.JPG';
 
+function startEachSentenceFromNewLine(text) {
+  return text.split('.').join('.<br/>');
+}
+
 class Header extends React.Component {
   render() {
-    const description = myself.description.split('\n').map(line =>
-      <div className='subtitle'>
-        {line}<br/>
-      </div>
-    );
-
     return (
       <header>
         <table className='header'>
@@ -21,7 +19,9 @@ class Header extends React.Component {
             </td>
             <td>
               <div className='title'>{myself.name}</div>
-              {description}
+              <div className='subtitle' dangerouslySetInnerHTML={
+                {__html: startEachSentenceFromNewLine(myself.description)}
+              }></div>
             </td>
           </tr>
         </tbody>
