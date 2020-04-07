@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13a3805c66b9a06c3333ca80513535cd",
+    "revision": "6c48cdd3b9eeacf8bf5b94bb1823781d",
     "url": "/oleks.fr.react/index.html"
   },
   {
-    "revision": "a24e8c95c53262b64ea1",
-    "url": "/oleks.fr.react/static/css/main.a9d946fc.chunk.css"
+    "revision": "620a7cde40948616d71a",
+    "url": "/oleks.fr.react/static/css/main.d3494625.chunk.css"
   },
   {
     "revision": "b26df53bf9b0db3a4146",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oleks.fr.react/static/js/2.f3466d6b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a24e8c95c53262b64ea1",
-    "url": "/oleks.fr.react/static/js/main.9cc1836f.chunk.js"
+    "revision": "620a7cde40948616d71a",
+    "url": "/oleks.fr.react/static/js/main.c21718ca.chunk.js"
   },
   {
     "revision": "90d1328cb28e3f81531e",
@@ -25,6 +25,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "6ab5e17459547de5bd58fa773118b028",
-    "url": "/oleks.fr.react/static/media/profile.6ab5e174.JPG"
+    "url": "/oleks.fr.react/static/media/profile.6ab5e174.jpg"
   }
 ]);
