@@ -1,7 +1,7 @@
 import React from 'react';
 import { myself } from '../data/myself.js';
 
-import profilePicture from '../img/profile.JPG';
+import profilePicture from '../img/profile.jpg';
 
 function startEachSentenceFromNewLine(text) {
   return text.split('.').join('.<br/>');

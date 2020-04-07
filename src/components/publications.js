@@ -1,7 +1,11 @@
 import React from 'react';
 
+import { publications } from "../data/publications.js"
+
 class Publications extends React.Component {
   render() {
+    console.log(publications);
+
     return (
       <section>
         <h2>Publications</h2>

@@ -1,5 +1,13 @@
 import React from 'react';
 
+import {myself} from "../data/myself.js"
+
+function constructAdressString(address) {
+  return `${address.institution}<br/>
+  ${address.building}, ${address.street}<br/>
+  ${address.index} ${address.city}`;
+}
+
 class Publications extends React.Component {
   render() {
     return (
@@ -7,14 +15,10 @@ class Publications extends React.Component {
         <h2>Contact</h2>
 
         <h3>Email</h3>
-        <p><a href="mailto:oleksandr.zaitsev@inria.fr">oleksandr.zaitsev@inria.fr</a></p>
+        <p><a href={"mailto:" + myself.email}>{myself.email}</a></p>
 
         <h3>Address</h3>
-        <p>INRIA Lille - Nord Europe <br/>
-        Parc Scientifique de la Haute Borne <br/>
-        40, avenue Halley <br/>
-        Bât. B, Park Plaza <br/>
-        59650 Villeneuve d'Ascq</p>
+        <p dangerouslySetInnerHTML={{__html:constructAdressString(myself.workAddress)}} />
       </section>
     );
   }
