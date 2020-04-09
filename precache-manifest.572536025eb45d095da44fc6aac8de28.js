@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c48cdd3b9eeacf8bf5b94bb1823781d",
+    "revision": "22b7868e9551a64cc1b1e351eb80b473",
     "url": "/oleks.fr.react/index.html"
   },
   {
-    "revision": "620a7cde40948616d71a",
+    "revision": "22dd912f5e164674d16d",
     "url": "/oleks.fr.react/static/css/main.d3494625.chunk.css"
   },
   {
-    "revision": "b26df53bf9b0db3a4146",
-    "url": "/oleks.fr.react/static/js/2.f3466d6b.chunk.js"
+    "revision": "d8c668145eaf4b829616",
+    "url": "/oleks.fr.react/static/js/2.ef9849e6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/oleks.fr.react/static/js/2.f3466d6b.chunk.js.LICENSE.txt"
+    "url": "/oleks.fr.react/static/js/2.ef9849e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "620a7cde40948616d71a",
-    "url": "/oleks.fr.react/static/js/main.c21718ca.chunk.js"
+    "revision": "22dd912f5e164674d16d",
+    "url": "/oleks.fr.react/static/js/main.44d1dd84.chunk.js"
   },
   {
     "revision": "90d1328cb28e3f81531e",
