@@ -8,14 +8,26 @@ import {
   Link
 } from 'react-router-dom';
 
+import $ from 'jquery';
+
 // import SideMenu from './components/side-menu';
 import Home from './components/home';
 import CurriculumVitae from './components/curriculum-vitae';
 import Contact from './components/contact';
 
 import './index.css';
+import profilePicture from './img/profile.jpg';
+
+class PageLink extends React.Component {
+
+}
 
 class App extends React.Component {
+
+  componentDidMount() {
+
+  }
+
   render() {
     return (
       <div>
@@ -42,14 +54,14 @@ class App extends React.Component {
 
           <article>
             <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
               <Route path="/cv">
                 <CurriculumVitae />
               </Route>
               <Route path="/contact">
                 <Contact />
-              </Route>
-              <Route path="/">
-                <Home />
               </Route>
             </Switch>
           </article>

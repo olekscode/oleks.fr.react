@@ -2,9 +2,10 @@ import React from 'react';
 
 import { publications } from "../data/publications.js"
 
-function publicationView(publication) {
-  return <div>{publication.title}</div>
-}
+import pdfPicture from '../img/pdf.png';
+import halPicture from '../img/hal.png';
+import acmPicture from '../img/acm.png';
+import githubPicture from '../img/github.png';
 
 class Publication extends React.Component {
   constructor(props) {
@@ -16,33 +17,37 @@ class Publication extends React.Component {
     this.city = props.value.city;
     this.country = props.value.country;
     this.links = props.value.links;
+
+    this.linkPictures = {
+      'PDF': pdfPicture,
+      'HAL': halPicture,
+      'ACM': acmPicture,
+      'GitHub': githubPicture
+    };
   }
 
-  mergeAuthors(authors) {
-    return authors.join(', ');
-  }
-
-  showLinks(links) {
-    return (
-      <div>
-        {links.map(link =>
-          <div><a href={link.url}>{link.type}</a></div>)}
-      </div>
-    );
+  asString() {
+    return `
+      ${this.authors.join(', ')}.
+      ${this.title}.
+      ${this.publisher}.
+      ${this.city},
+      ${this.country}.
+      ${this.date.getFullYear()}`;
   }
 
   render() {
+    const linksHtml = this.links.map(link =>
+      <a href={link.url}><img src={this.linkPictures[link.type]} /></a>);
+
     return (
-      <div>
-        <div>
-          {this.mergeAuthors(this.authors)}.
-          {this.title}.
-          {this.publisher}.
-          {this.city},
-          {this.country}.
-          {this.date.getFullYear()}
+      <div class="publication">
+        <div class="publication-string">
+          {this.asString()}
         </div>
-        {this.showLinks(this.links)}
+        <div class="publication-links">
+          {linksHtml}
+        </div>
       </div>
     );
   }

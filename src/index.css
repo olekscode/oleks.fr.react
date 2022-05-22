@@ -86,17 +86,22 @@ h1, h2, h3, h4, h5, h6 {
   color: gray;
 }
 
-.publications {
-  padding-left: 10px;
+.publication {
+  display: inline-block;
 }
 
-.publications tr {
-  vertical-align: top;
+.publication-string {
+  width: 200px;
+  display: inline-block;
 }
 
-.publications td {
-  padding-right: 10px;
-  padding-bottom: 10px;
+.publication-links {
+  width: 50px;
+}
+
+.publication img {
+  width: 25px;
+  height: 25px;
 }
 
 p {
